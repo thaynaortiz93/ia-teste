@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Playground - Simples</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .banner {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+
+    .card button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+
+    @media(max-width: 768px) {
+      .tools {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>AI Playground</h1>
+    <nav>
+      <a href="#imagens">Gerador de Imagens</a>
+      <a href="#chatbot">Chatbot</a>
+      <a href="#experimentos">Experimentos</a>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h2>Explore a Inteligência Artificial</h2>
+    <p>Experimente ferramentas simples de IA direto no navegador!</p>
+  </section>
+
+  <!-- Ferramentas -->
+  <section class="tools">
+    <div class="card" id="imagens">
+      <h3>Gerador de Imagens</h3>
+      <p>Digite uma frase e veja uma imagem gerada pela IA.</p>
+      <button onclick="alert('API de imagens aqui')">Experimentar</button>
+    </div>
+
+    <div class="card" id="chatbot">
+      <h3>Chatbot IA</h3>
+      <p>Converse com um chatbot simples.</p>
+      <button onclick="alert('Chatbot aqui')">Experimentar</button>
+    </div>
+
+    <div class="card" id="experimentos">
+      <h3>Experimentos IA</h3>
+      <p>Mini-experimentos interativos de Machine Learning.</p>
+      <button onclick="alert('Experimentos IA aqui')">Experimentar</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 AI Playground | Desenvolvido por Você</p>
+  </footer>
+
+</body>
+</html>
